@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html> <!-- Imprescindible para que se pueda formar el html5 -->
+<html lang="es"> <!-- Inicio etiqueta html. El lenguaje es lang="es" porque corresponde al idioma español. Es importante ponerlo para que personas que tienen problemas visuales puedan. -->
+<head> <!-- Apertura etiqueta cabecera -->
+<meta charset="utf-8">
+<meta name="author" content="Eva Vinaj Milián"> 
+<title>MANUAL HTML5 EVA VINAJA MILIÁN</title> <!--Este texto es el título del documento -->
+
+</head>
+<body>
+<header>
+<h1>MANUAL HTML5 EVA VINAJA MILIÁN</h1>
+</header>
+<subir id=Subir>
+<p><h1>AGRUPACIONES</h1></p>
+</subir>
+<selection>
+	<article>
+<p><h2>PARRAFO &ltp&gt</p></h2>
+<p>Realiza un salto de párrafo, es decir de una línea a otra. No hay que confundirlo con el <a href=#eltoX>&ltbr&gt </a></p>
+<!-- hiperenlaceinterno en la misma pagina -->
+	</article>
+	
+<article>
+<p><h2>TEXTO PREFORMATEADO</h2></p>
+<p>Hace referencia a letras monoespaciadas &ltpre&gt.</p>
+	</article>
+	
+<article>
+<p><h2>LISTAS&ltul&gt</h2></p>
+<table border>
+<th rowspan=1 colspan=3 >Diferentes formas de listas </th>
+
+<tr>
+		<td>&ltul&gt &ltli&gt</td>
+		<td>Añade punto.</td>	
+	</tr>
+<tr>
+		<td>&ltul&gt &ltol&gt</td>
+		<td>Ordenar.</td>
+</td>	
+	<tr>
+		<td>&ltdt&gt &ltdd&gt</td>
+		<td>Para definiciones (diccionario).</td>	
+	</tr>
+</table>
+<p><ul>
+<li>El atributo <u>&ltreversed&gt</u> significa que ordena del revés.</td>
+<li>Para añdirel mayusculas, minusculas... <u>type=""</u>. Añadir ejemplo -l, -a (minusculas), -A (mayusculas),
+ -i (números romanos minusculas), -I números romanos mayusculas.</li>
+<li>Para decir en que número se quiere que se empiece se pone: <u>&ltstart="numero"&gt</u><br>
+Estas dos últimas opciones es mejor no utilizarlas ya que en las CSS también se pueden incluir.</li>
+
+</ul>
+
+</p>
+
+	</article>
+
+	<article>
+<p><h2>LINEAS HORIZONTALES &lthr&gt </h2><p/>
+<p>Proporciona separaciones temáticas entre dos parrafos. Por ejemplo una obra de teatro.</br>
+Es un elemento vacio, sin etiqueta de cierre.</p>
+	</article>
+
+	<article>
+<p><h2>OTROS ELEMENTOS </h2><p/>
+<p><h3>Tablas &lttable&gt</h3></p>
+<p>Las tablas estan formadas tanto por filas (verticales) como por columnas (horizontales): &lttable&gt si
+se le añade el &lttable border&gt significa que tiene un borde.</p>
+<p>Tenemos que tener en cuenta:</p>
+<p><ol>
+<li>Las <u>&lttr&gt</u> son filas y dentro de esta encontramos las <u>&lttd&gt</u> que son las celdas, ambas son etiquetas con cierre.<br>
+Hay que mantener siempre el formato aunque por ejemplo en un celda no haya información, la dejamos en blanco y ya está.</li>
+
+<li><b>Union:</b>El <u>rowspan=cifra</u> hace referencia a las celdas <u>colspan=cifra</u> hace referencia
+a las filas. Las cifras dependen en función de lo que queremos juntar. Si queremos que el encabezdo de la tabla
+este en negrita se utiliza la etiqueta &ltth&gt </td></li>
+</ol></p>
+
+	</article>
+
+
+</selection>
+
+
+<br>
+<br> <!-- Realización de saltos de línea para dividir por una parte las agrupaciones y por otra los elementos semánticos -->
+<subir id=Subir1>
+<p><h1>ELEMENTOS SEMÁNTICOS</h1></p>
+<subir id=Subir1>
+<selection>
+	<article>
+<p><h2>RESALTADO </p></h2>
+<p><table border>
+<tr>
+<th rowspan=1 colspan=3 >Tabla tipo resaltados </th>
+
+</tr>
+		<td>¿Qué hace?</td>
+		<td>Etiqueta</td>
+		<td>Etiqueta cierre</td>	
+	</tr>
+	<tr>
+		<td>Italic</td>
+		<td>&lti&gt</td>
+		<td>&lt/i&gt</td>	
+	</tr>
+	<tr>
+		<td>Negrita</td>
+		<td>&ltb&gt</td>
+		<td>&lt/b&gt</td>	
+	</tr>
+<tr>
+		<td>Subrayado</td>
+		<td>&ltu&gt</td>
+		<td>&lt/u&gt</td>	
+	</tr>
+<tr>
+		<td>Un poco mas grande</td>
+		<td>&ltstrong&gt</td>
+		<td>&lt/strong&gt</td>	
+	</tr>
+<tr>
+		<td>Un poco más pequeño</td>
+		<td>&ltsmall&gt</td>
+		<td>&lt/small&gt</td>	
+	</tr>
+<tr>
+		<td>Tachado</td>
+		<td>&lts&gt</td>
+		<td>&lt/s&gt</td>	
+	</tr>
+<tr>
+		<td>Parecido a la italica, da enfasis</td>
+		<td>&ltem&gt</td>
+		<td>&lt/em&gt</td>	
+	</tr>
+</table>
+</p>
+	</article>
+	<article>
+<p><h2>SALTO DE LÍNEA &ltbr&gt</h2></p>
+<p>Esta etiqueta se utiliza para hacer saltos de línea, es decir, cambiar de parrafo.
+Es un elemento vacio, es decir, no necesit etiqueta de cierre y se colocn al final de la la frase/palabra
+queremos que cambie de línea.<br>
+Es muy útil para escribir por ejemlo poesias, direcciones y similares.<br>
+Esta etiqueta <elto id=eltoX>no hay que confundirla con la etiqueta &ltp&gt</elto> <!-- inicio de un hiperenlace
+interno en la misma pagina -->
+</p>Encontramos también <b>&ltwbr&gt</b>, es un salto de línea dependiendo de la pantalla.</p>
+	</article>
+	<article>
+<p><h2>HYPERENLACE</h2></p>
+<selection> 
+</article>
+<p><h3>HYPERENLACE CON UNA URL</p></h3>
+<p>Hyperenlace donde conecta con otra url exterior (<b>Uniform Resource Locator</b>)
+
+</article></p>
+<article>
+<p>&lta href=”URL”&gtLa información que sale&lt/a&gt</p>
+</article>
+<article>
+<p><h3>HYPERENLACE INTERNO</p></h3>
+<p>Creacion de hypenlaces en el interior del documento html. Va desde un lugar a otro.</p>
+<p>Creas el hyperenlace aqui<u>&ltelto id=eltoX&gt comentario que queremos poner 
+&lt/elto&gt</u> y te lleva aqui: <u>&lta href=#eltoX&gt texto que
+quieres que se vincule&lt/a&gt</u></p>
+</article>
+<article>
+<p><h3>HYPERENLACE GENERAL</p></h3>
+<p>Este típo de hyperenlace se utiliza para enlazar pagias html.</p> 
+<p><u>&lta href="nombre del documento.html"&gt SELECCION&lt/a&gt</u></p></li></h1>
+</article>	
+
+<article>
+	
+<p><h2>OTROS ELEMENTOS </h2><p/>
+<p><h3>Insertar imagenes</h3></p>
+<p>La estructura es &ltimg src=nombredelaimagenconlaextension.png alt=Información que queremos que se vea
+cuando colocamos el puntero encima de la imagen width=cifra heigh=cifra&gt</p>
+<p>El width hace referencia al ancho en pixeles y el height hace referencia al alto también en pixeles, por ejemplo
+si queremos introducir otra medida en la cifra deberemos por ejemplo poner el simbolo del porcentaje: "%". Si queremos unas
+dimensiones concretas, es aconsejable introducir la imagen correctamente. Si solo se modifica el width, se 
+modifica por defecto a escala el height.</p>
+<p><u>Tipos de imagenes que podemos insertar:</u></p>
+<ul>
+<li>Png</li>
+<li>Gif</li>
+<li>Jpg</li>
+</ul>
+<p><h3>Insertar otro tipo de documentos:</h3></p>
+<ul>
+<li>Documento vectoriales con la extensión svg.</li>
+<li>Animaciones, también puede ser extensión: png.</li>
+<li>Fotogramas con la extensión gif.</li>
+<li>Pdf. Hay que tener en cuenta que solo se adjunta la primera pagina del documento pdf.</li>
+</ul>
+	</article>
+<article>
+<p><h3>Mapa de imagenes</h3></p>
+<p>Se utiliza para relizar enlaces sobre una imagen, es decir, si tu pinchas sobre la imagen te lleva a la URL que hayas añadido.<br>
+
+<p>
+<u>&ltimg usemap="#pinchaaqui" src=pinchaaqui.png width=20 heigh=20&gt
+&ltmap name="pinchaaqui"&gt
+&ltarea shape = "rect" coords ="4,3,505,507"   href="http://www.w3schools.com" alt="logo"&gt
+&lt/map&gt
+</u>
+<p>
+
+A continuación se añade:<br>
+</p>
+<p>Para esto, debemos de analizar como es la imagen:</p> <<!-- En este documento html he relizado un enlace a un cuadrado que es una imagen-->
+
+<table border>
+<th rowspan=1 colspan=3 >Enlaces sobre formas </th>
+
+<tr>
+		<td>¿Qué es?</td>
+		<td>Tipo</td>
+		<td>¿Se necesitán coordenadas?</td>	
+	</tr>
+<tr>
+		<td>shape = (forma)</td>
+		<td>defaul (toda la imagen)</td>
+		<td>No.
+</td>	
+	<tr>
+		<td>shape = (forma)</td>
+		<td>rect (cuadrado)</td>
+		<td>Si. En total 4: x1, y1, x2, y2.</td>	
+	</tr>
+<tr>
+		<td>shape = (forma)</td>
+		<td>circle (circulo)</td>
+		<td>Si. Se necesitan tres datos, tener en cuenta el radio.</td>	
+	</tr>
+<tr>
+		<td>shape = (forma)</td>
+		<td>poly (poligono)</td>
+		<td>Si. De cada punto del poligono, dos: x1, y1, x2, y2...</td>	
+	</tr>
+</table>
+
+</p>
+</article>
+
+
+
+</selection>
+</p>
+
+
+
+
+<br>
+<br>
+<a href=#Subir> Ir al comienzo de AGRUPACIONES </a> <br>
+<a href=#Subir1> Ir al comienzo de ELEMENTOS SEMÁNTICOS </a> <br>
+<a href="INDICE.html"> VOLVER AL ÍNDICE</a>
+<footer>
+<p>Eva Vinaja Milián</p>  
+<p>Curso: 2016/2017</p> 
+<address>
+<a href=”http://www.santigohernandez.com”>IES Santiago Hernandez Zaragoza</a>
+</address> 
+</footer> <!-- fin etiqueta flooter -->
+</body> <!-- fin etiqueta body -->
+</html> <!--  fin etiqueta html -->
+
+
